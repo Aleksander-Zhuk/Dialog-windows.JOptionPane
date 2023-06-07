@@ -28,7 +28,8 @@ class  FirstWindow extends JOptionPane {
                 icon1,
                 options,
                 options[0]);
-        if (n == JOptionPane.NO_OPTION) {
+        if (n == JOptionPane.YES_OPTION) {}
+        else {
             JOptionPane.showMessageDialog(null,
                     "Нам очень жаль.",
                     "Рестрицая отменена.",
